@@ -8,11 +8,18 @@ const Home = () => {
           flex: 1,
           justifyContent: "center",
           alignItems: "center",
+          backgroundColor: "#000"
         }}
       >
-        <Text>Welcome to Home Screen</Text>
+        <Text style={styles.Text}>Welcome to Home Screen</Text>
       </View>
   )
 }
 
 export default Home
+
+const styles = StyleSheet.create({
+  Text: {
+    color: "white"
+  }
+})
