@@ -4,14 +4,9 @@ import React from 'react'
 const Home = () => {
   return (
       <View
-        style={{
-          flex: 1,
-          justifyContent: "center",
-          alignItems: "center",
-          backgroundColor: "#000"
-        }}
+        className='items-center justify-center gap-2'
       >
-        <Text style={styles.Text}>Welcome to Home Screen</Text>
+        <Text className='text-white'>Welcome to Home Screen</Text>
       </View>
   )
 }

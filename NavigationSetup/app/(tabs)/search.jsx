@@ -1,14 +1,10 @@
-import { StyleSheet, Text, View } from 'react-native'
+import {  Text, View } from 'react-native'
 import React from 'react'
 
 const Search = () => {
   return (
    <View
-           style={{
-             flex: 1,
-             justifyContent: "center",
-             alignItems: "center",
-           }}
+          className='items-center justify-center gap-2'
          >
            <Text>Welcome to Search Tab</Text>
     </View>

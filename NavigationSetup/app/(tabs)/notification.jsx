@@ -3,12 +3,7 @@ import React from 'react'
 
 const Notification = () => {
   return (
-   <View style={{
-                flex: 1,
-                justifyContent: "center",
-                alignItems: "center",
-            }
-        }
+   <View  className='items-center justify-center gap-2'
     >
         <Text>Welcome to Notification Tab</Text>
    </View>
